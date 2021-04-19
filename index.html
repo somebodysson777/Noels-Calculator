@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>Noel's Calculator</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="PICS/download.png">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            font-family: sans-serif;
+        }
+        body{
+            background-size: cover;
+            background-color: antiquewhite;
+            background-image: url(PICS/photo-1519389950473-47ba0277781c.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .calc_body{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            background-color: #fafafa;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+            border-radius: 8px;
+        }
+        .result{
+            background-color: #212121;
+            color: #fafafa;
+            border-radius: 8px 8px 0 0;
+            padding: 40px;
+            font-size: 40px;
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        .buttons button{
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            border: none;
+            transition: -2s all linear;
+        }
+        .buttons button:hover{
+            background-color: #e0e0e0;
+    
+        }
+        .buttons button:active{
+            background-color: #bdbdbd;
+        }
+        .equal{
+            background-color: #f57f17;
+        }
+       
+        
+        
+        
+        
+        
+        
+        </style>
+
+</head>
+
+<body>
+
+    
+   
+    <div class="calc_body">
+
+        <div class="result">
+
+            <p id="result">0</p>
+
+        </div>
+
+
+        <div class="buttons">
+
+            <button>+/-</button>
+
+            <button>%</button>
+
+            <button>C</button>
+
+            <button>DEL</button>
+
+            <button>7</button>
+
+            <button>8</button>
+
+            <button>9</button>
+
+            <button>/</button>
+
+            <button>4</button>
+
+            <button>5</button>
+
+            <button>6</button>
+
+            <button>*</button>
+
+            <button>1</button>
+
+            <button>2</button>
+
+            <button>3</button>
+
+            <button>+</button>
+
+            <button>.</button>
+
+            <button>0</button>
+
+            <button class="equal">=</button>
+
+            <button>-</button>
+
+        </div>
+
+    </div>
+    
+    
+
+    <script src='main2.js'></script>
+
+</body>
+
+</html>
